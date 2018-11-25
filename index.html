@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Tebak Angka!</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light" rel="stylesheet">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <h2 id="start-game">Tebak Angka</h2>
+    <img id="display-img" src="img/question-mark.png" alt="">
+    <form id="user-guess" action="javascript:void(0);">
+        <input type="text" placeholder="Masukan Nomor 1 - 10">
+        <input type="button" value="Submit" onclick="compareGuess();">
+        <input type="button" value="Coba Lagi?" onclick="location.reload();">
+    </form>
+</body>
+
+</html>

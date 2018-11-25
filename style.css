@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;;
+    background-color: #f4f4f4;
+    background-image: url("img/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form {
+    width: 460px;
+    margin: 10px auto;
+}
+
+input {
+    width: 99%;
+    display: inline-block;
+    padding: 10px 0;
+    margin: 5px 0;
+    box-sizing: border-box;
+    text-align: center;
+    width: 460px;
+}
+
+input[type="button"] {
+    width: 49%;
+}
+
+body {
+    background-color: #ffffff;
+    width: 700px;
+    margin: 20px auto;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
